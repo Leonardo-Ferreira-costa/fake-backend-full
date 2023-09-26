@@ -1,0 +1,7 @@
+{
+    "perguntas": [
+      { "id": 1, "pergunta": "ola", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
+      { "id": 2, "pergunta": "oi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
+      { "id": 3, "pergunta": "hi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" }
+    ]
+}
