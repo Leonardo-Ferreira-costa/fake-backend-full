@@ -1,7 +1,150 @@
 {
-    "perguntas": [
-      { "id": 1, "pergunta": "ola", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 2, "pergunta": "oi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 3, "pergunta": "hi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" }
-    ]
+  "Usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "cargo": "Gerente",
+      "data_cadastro": "2023-01-15"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "cargo": "Vendedor",
+      "data_cadastro": "2023-02-20"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Souza",
+      "email": "carlos.souza@email.com",
+      "cargo": "Administrador",
+      "data_cadastro": "2023-03-10"
+    },
+    {
+      "id": 4,
+      "nome": "Ana Costa",
+      "email": "ana.costa@email.com",
+      "cargo": "Atendente",
+      "data_cadastro": "2023-04-05"
+    },
+    {
+      "id": 5,
+      "nome": "Pedro Rocha",
+      "email": "pedro.rocha@email.com",
+      "cargo": "Supervisor",
+      "data_cadastro": "2023-05-12"
+    }
+  ],
+  "Produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook Dell",
+      "categoria": "Informática",
+      "preco": 4299.90,
+      "estoque": 15
+    },
+    {
+      "id": 2,
+      "nome": "Smartphone Samsung",
+      "categoria": "Celulares",
+      "preco": 1899.90,
+      "estoque": 30
+    },
+    {
+      "id": 3,
+      "nome": "Mesa de Escritório",
+      "categoria": "Móveis",
+      "preco": 599.90,
+      "estoque": 8
+    },
+    {
+      "id": 4,
+      "nome": "Cadeira Gamer",
+      "categoria": "Móveis",
+      "preco": 1299.90,
+      "estoque": 12
+    },
+    {
+      "id": 5,
+      "nome": "Monitor 24\"",
+      "categoria": "Informática",
+      "preco": 899.90,
+      "estoque": 20
+    }
+  ],
+  "Clientes": [
+    {
+      "id": 1,
+      "nome": "Empresa ABC Ltda",
+      "cnpj": "12.345.678/0001-99",
+      "telefone": "(11) 9876-5432",
+      "email": "contato@empresaabc.com.br"
+    },
+    {
+      "id": 2,
+      "nome": "José Carlos Mendes",
+      "cpf": "123.456.789-00",
+      "telefone": "(21) 99876-5432",
+      "email": "jose.mendes@email.com"
+    },
+    {
+      "id": 3,
+      "nome": "Comércio XYZ S/A",
+      "cnpj": "98.765.432/0001-11",
+      "telefone": "(31) 3456-7890",
+      "email": "vendas@xyzcomercio.com.br"
+    },
+    {
+      "id": 4,
+      "nome": "Ana Paula Ferreira",
+      "cpf": "987.654.321-00",
+      "telefone": "(41) 98765-4321",
+      "email": "ana.ferreira@email.com"
+    },
+    {
+      "id": 5,
+      "nome": "Distribuidora QRS Ltda",
+      "cnpj": "45.678.912/0001-34",
+      "telefone": "(51) 3344-5566",
+      "email": "compras@distribuidoraqrs.com.br"
+    }
+  ],
+  "Fornecedores": [
+    {
+      "id": 1,
+      "nome": "Indústria Alpha S.A.",
+      "cnpj": "11.222.333/0001-44",
+      "ramo": "Eletrônicos",
+      "telefone": "(11) 3456-7890"
+    },
+    {
+      "id": 2,
+      "nome": "Beta Componentes Ltda",
+      "cnpj": "55.666.777/0001-88",
+      "ramo": "Informática",
+      "telefone": "(21) 9876-5432"
+    },
+    {
+      "id": 3,
+      "nome": "Gamma Móveis S.A.",
+      "cnpj": "99.888.777/0001-66",
+      "ramo": "Mobiliário",
+      "telefone": "(31) 2345-6789"
+    },
+    {
+      "id": 4,
+      "nome": "Delta Materiais",
+      "cnpj": "33.444.555/0001-22",
+      "ramo": "Construção",
+      "telefone": "(41) 3456-7890"
+    },
+    {
+      "id": 5,
+      "nome": "Omega Tecnologia",
+      "cnpj": "77.888.999/0001-00",
+      "ramo": "Equipamentos",
+      "telefone": "(51) 98765-4321"
+    }
+  ]
 }
