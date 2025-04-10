@@ -32,11 +32,42 @@ Open [http://localhost:8800](http://localhost:8800) to view it in your browser E
 File: db.json
 ```
 {
-    "perguntas": [
-      { "id": 1, "pergunta": "ola", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 2, "pergunta": "oi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" },
-      { "id": 3, "pergunta": "hi", "resposta": "Oi, estamos rodando com uma API feita com express e um banco de dados fake com json-server" }
-      ]
+  "Usuarios": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao.silva@email.com",
+      "cargo": "Gerente",
+      "data_cadastro": "2023-01-15"
+    }
+  ],
+  "Produtos": [
+    {
+      "id": 1,
+      "nome": "Notebook Dell",
+      "categoria": "Informática",
+      "preco": 4299.90,
+      "estoque": 15
+    }
+  ],
+  "Clientes": [
+    {
+      "id": 1,
+      "nome": "Empresa ABC Ltda",
+      "cnpj": "12.345.678/0001-99",
+      "telefone": "(11) 9876-5432",
+      "email": "contato@empresaabc.com.br"
+    }
+  ],
+  "Fornecedores": [
+    {
+      "id": 1,
+      "nome": "Indústria Alpha S.A.",
+      "cnpj": "11.222.333/0001-44",
+      "ramo": "Eletrônicos",
+      "telefone": "(11) 3456-7890"
+    }
+  ]
 }
 ```
 
